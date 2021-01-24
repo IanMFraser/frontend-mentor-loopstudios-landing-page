@@ -30,7 +30,7 @@ body {
    font-size: 15px;
 }
 
-h1 {
+h1, h2, h3 {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 300;
     text-transform: uppercase;
@@ -152,7 +152,7 @@ p {
 .card {
     position: relative;
     color: var(--white);
-    height: 125px;
+    min-height: 125px;
 }
 
 .card:hover {
